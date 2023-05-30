@@ -19,10 +19,10 @@ ${EXEC_WITH_INPUT} -vn -acodec libvorbis -ab 128k -dash 1 ${OUTPUT_PATH_PREFIX}/
 
 ${EXEC_WITH_INPUT} -ss 00:00:00.000 -frames:v 1 ${OUTPUT_PATH_PREFIX}/thumbnail.png
 
-${EXEC_WITH_INPUT} -c:v libvpx-vp9 -f webm -dash 1 \
--an -vf scale=160:90 -b:v 250k -dash 1 ${OUTPUT_PATH_PREFIX}/160x90_250k.webm \
--an -vf scale=320:180 -b:v 500k -dash 1 ${OUTPUT_PATH_PREFIX}/320x180_500k.webm \
--an -vf scale=640:360 -b:v 750k -dash 1 ${OUTPUT_PATH_PREFIX}/640x360_750k.webm \
+${EXEC_WITH_INPUT} -crf 25 -c:v libvpx-vp9 -f webm -dash 1 \
+-an -vf scale=160:90 -dash 1 ${OUTPUT_PATH_PREFIX}/160x90_250k.webm \
+-an -vf scale=320:180 -dash 1 ${OUTPUT_PATH_PREFIX}/320x180_500k.webm \
+-an -vf scale=640:360 -dash 1 ${OUTPUT_PATH_PREFIX}/640x360_750k.webm \
 # -an -vf scale=640:360 -b:v 1000k -dash 1 ${OUTPUT_PATH_PREFIX}/640x360_1000k.webm \
 # -an -vf scale=1280:720 -b:v 1500k -dash 1 ${OUTPUT_PATH_PREFIX}/1280x720_1500k.webm
 

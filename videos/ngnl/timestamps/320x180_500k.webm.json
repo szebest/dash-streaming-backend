@@ -1,0 +1,26 @@
+{
+  "type": "video/webm;codecs=\"vp9\"",
+  "duration": 99767.000000,
+  "init": { "offset": 0, "size": 685},
+  "media": [
+    { "offset": 685, "size": 243013, "timecode": 0.000000 },
+    { "offset": 243698, "size": 294846, "timecode": 5.339000 },
+    { "offset": 538544, "size": 329905, "timecode": 10.677000 },
+    { "offset": 868449, "size": 283232, "timecode": 16.016000 },
+    { "offset": 1151681, "size": 280841, "timecode": 21.355000 },
+    { "offset": 1432522, "size": 277939, "timecode": 26.693000 },
+    { "offset": 1710461, "size": 276565, "timecode": 32.032000 },
+    { "offset": 1987026, "size": 294197, "timecode": 37.371000 },
+    { "offset": 2281223, "size": 277696, "timecode": 42.709000 },
+    { "offset": 2558919, "size": 262126, "timecode": 48.048000 },
+    { "offset": 2821045, "size": 267105, "timecode": 53.387000 },
+    { "offset": 3088150, "size": 290886, "timecode": 58.725000 },
+    { "offset": 3379036, "size": 310084, "timecode": 64.064000 },
+    { "offset": 3689120, "size": 380332, "timecode": 69.403000 },
+    { "offset": 4069452, "size": 322762, "timecode": 74.741000 },
+    { "offset": 4392214, "size": 276249, "timecode": 80.080000 },
+    { "offset": 4668463, "size": 439430, "timecode": 85.419000 },
+    { "offset": 5107893, "size": 1989542, "timecode": 90.757000 },
+    { "offset": 7097435, "size": 730683, "timecode": 96.096000 }
+  ]
+}

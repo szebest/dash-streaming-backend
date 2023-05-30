@@ -9,20 +9,28 @@
   profiles="urn:mpeg:dash:profile:webm-on-demand:2012">
 <Period id="0" start="PT0S" duration="PT283.379S" >
 <AdaptationSet id="0" mimeType="video/webm" codecs="vp9" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
-<Representation id="0" bandwidth="1075063" width="160" height="90">
+<Representation id="0" bandwidth="249283" width="160" height="90">
 <BaseURL>160x90_250k.webm</BaseURL>
 <SegmentBase
-  indexRange="23699895-23700984">
+  indexRange="3724784-3725854">
 <Initialization
   range="0-683" />
 </SegmentBase>
 </Representation>
-<Representation id="1" bandwidth="3384965" width="320" height="180">
+<Representation id="1" bandwidth="443105" width="320" height="180">
 <BaseURL>320x180_500k.webm</BaseURL>
 <SegmentBase
-  indexRange="70848399-70849510">
+  indexRange="6239609-6240679">
 <Initialization
   range="0-684" />
+</SegmentBase>
+</Representation>
+<Representation id="2" bandwidth="1196234" width="640" height="360">
+<BaseURL>640x360_750k.webm</BaseURL>
+<SegmentBase
+  indexRange="15444805-15445875">
+<Initialization
+  range="0-685" />
 </SegmentBase>
 </Representation>
 </AdaptationSet>
